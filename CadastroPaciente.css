@@ -1,0 +1,56 @@
+.cadastro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+}
+
+.cadastro-card {
+  background-color: var(--white-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  width: 90%;
+  max-width: 900px; 
+}
+
+header h1 {
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+footer a {
+  display: block;
+  margin-top: 1rem;
+  color: var(--secondary-color); 
+
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+button.btn-primary {
+  background-color: var(--secondary-color); 
+  border-color: var(--secondary-color);
+}
+
+button.btn-primary:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
